@@ -1,0 +1,129 @@
+body{
+	box-sizing: border-box;
+font-family: 'Noto Sans', sans-serif;
+
+}
+
+.lateral{
+	position: fixed;
+	bottom:0;
+	top:0;
+	right: 0
+	padding: 1em;
+	width: 350px;
+	background: #44C1E6;}
+
+/*perfil */
+
+.perfil__circulo{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	margin:15px 100px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.perfil__imagen{
+	width: 100%;
+}
+
+.perfil__nombre{
+	color:white;
+	font-size: 20px;
+	width:310px; 
+	text-align: center;
+	margin-bottom: 1em;
+	margin-top: -0.5em;
+
+}
+
+.perfil__nombre, .perfil__circulo{
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+
+}
+/* habilidades*/
+.habilidades{
+	
+padding:0;
+}
+
+.habilidad{
+display: inline-block;
+padding: 0.5em;
+background: #24667A;
+text-transform: uppercase;
+}
+
+.informacion{
+	position: absolute;
+	bottom:1em;
+	padding:1.5em;
+}
+
+/* proyectos */
+
+.proyectos {
+	margin-left: 350px;
+	padding:1em;
+	display:table;
+}
+
+.proyecto{
+	width: 50%;
+	display:table-cell;
+	padding:0.5em;
+
+}
+
+.proyecto__imagen{
+	width:100%;
+}
+
+
+.proyecto__titulo:hover{
+	color:black;
+}
+.proyecto__titulo:link{
+	color :black;
+	text-decoration: none
+}
+.proyecto__titulo:visited{
+	color:black;
+	text-decoration: none;}
+
+
+ /* redes sociales y enlaces*/
+
+
+
+.iconos{
+	width: 10%;
+	margin:1em 0px 10px 1em;
+	display: list-item;
+	background: #44C1E6;
+
+
+}
+
+.cuentas:visited{
+	color:black;
+	text-decoration: none;
+}
+
+.cuentas:link{
+	text-decoration: none;
+	color:black;
+}
+
+.cuentas:hover{
+	color:blue;
+}
+.cuentas{
+	margin: 1em;
+}
+.iconos{
+	background: #44C1E6;
+	position: relative;
